@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Park Garau</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="http://code.jquery.com/jquery-1.10.2.js" async></script>
+        <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js" async></script>
+        <link href="resources/css/ecom.css" rel="stylesheet"/>
+        <link href="resources/css/animate.css" rel="stylesheet"/>
+        <link href="resources/css/portal.css" rel="stylesheet"/>
+        <script type="text/javascript" src="resources/js/ecom.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/classic/theme-classic/resources/theme-classic-all.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/ext-all-debug.js"></script>
+        <script src="ecom/app.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <h2>Ecommerce Products Display Layout</h2>
+
+                <div class="col-sm-3">
+                    <article class="col-item">
+                        <div class="photo">
+                            <div class="options-cart-round">
+                                <button class="btn btn-default" title="Add to cart">
+                                    <span class="fa fa-shopping-cart"></span>
+                                </button>
+                            </div>
+                            <a class="test" id="test12" href="#" onClick="javascript:openWindow(this.id);"><img src="https://unsplash.it/500/300?image=0" class="img-responsive" alt="Product Image" /> </a>
+                        </div>
+                        <div class="info">
+                            <div class="row">
+                                <div class="price-details col-md-6">
+                                    <p class="details">
+                                        Laptop With Good USER
+                                        InTERFACE
+                                    </p>
+                                    <h1>Sample Product</h1>
+                                    <span class="price-new">Rs 110.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <p class="text-center">Hover over image</p>
+                </div>
+                <div class="col-sm-3">
+                    <article class="col-item">
+                        <div class="photo">
+                            <div class="options">
+                                <button class="btn btn-default" type="submit" data-toggle="tooltip" data-placement="top" title="Add to wish list">
+                                    <i class="fa fa-heart"></i>
+                                </button>
+                                <button class="btn btn-default" type="submit" data-toggle="tooltip" data-placement="top" title="Compare">
+                                    <i class="fa fa-exchange"></i>
+                                </button>
+                            </div>
+                            <div class="options-cart">
+                                <button class="btn btn-default" title="Add to cart">
+                                    <span class="fa fa-shopping-cart"></span>
+                                </button>
+                            </div>
+                            <a class="test" id="test" href="#" onClick="javascript:openWindow(this.id);"> <img src="https://unsplash.it/500/300?image=0" class="img-responsive" alt="Product Image" /> </a>
+                            <script type="text/javascript">
+                                function openWindow(id) {
+                                    Ext.create('ecom.view.Item').show();
+                                }
+                            </script>
+                        </div>
+                        <div class="info">
+                            <div class="row">
+                                <div class="price-details col-md-6">
+                                    <p class="details">
+                                        Laptop With Good USER
+                                        InTERFACE
+                                    </p>
+                                    <h1>Sample Product</h1>
+                                    <span class="price-new">Rs 110.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <p class="text-center">Hover over image</p>
+                </div>
+                <div class="col-sm-3">
+                    <article class="col-item">
+                        <div class="options">
+                            <button class="btn btn-default" type="submit" data-toggle="tooltip" data-placement="top" title="Add to wish list">
+                                <i class="fa fa-heart"></i>
+                            </button>
+                            <button class="btn btn-default" type="submit" data-toggle="tooltip" data-placement="top" title="Compare">
+                                <i class="fa fa-exchange"></i>
+                            </button>
+                        </div>
+                        <div class="photo">
+                            <a href="#"> <img src="https://unsplash.it/500/300?image=0" class="img-responsive" alt="Product Image" /> </a>
+                        </div>
+                        <div class="info">
+                            <div class="row">
+                                <div class="price-details col-md-6">
+                                    <p class="details">
+                                        Laptop With Good USER
+                                        InTERFACE
+                                    </p>
+                                    <h1>Sample Product</h1>
+                                    <span class="price-new">Rs 110.00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-3">
+                    <article class="col-item">
+                        <div class="photo">
+                            <a href="#"> <img src="https://unsplash.it/500/300?image=0" class="img-responsive" alt="Product Image" /> </a>
+                        </div>
+                        <div class="info">
+                            <div class="row">
+                                <div class="price-details col-md-6">
+                                    <p class="details">
+                                        Laptop With Good USER
+                                        InTERFACE
+                                    </p>
+                                    <h1>Sample Product</h1>
+                                    <span class="price-new">Rs 110.00</span>
+                                </div>
+                            </div>
+                            <div class="separator clear-left">
+                                <p class="btn-add">
+                                    <i class="fa fa-shopping-cart"></i><a href="#" class="hidden-sm">Add to cart</a>
+                                </p>
+                                <p class="btn-details">
+                                    <a href="#" class="hidden-sm" data-toggle="tooltip" data-placement="top" title="Add to wish list"><i class="fa fa-heart"></i></a>
+                                    <a href="#" class="hidden-sm" data-toggle="tooltip" data-placement="top" title="Compare"><i class="fa fa-exchange"></i></a>
+                                </p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
